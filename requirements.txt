@@ -1,0 +1,6 @@
+faster-whisper
+fastapi
+uvicorn
+sounddevice
+numpy
+ctranslate2
