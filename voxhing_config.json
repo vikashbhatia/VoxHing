@@ -1,0 +1,35 @@
+{
+  "host": "127.0.0.1",
+  "port": 8765,
+  "token": "vikash-local-whisper-v1",
+
+  "model": "base",
+  "device": "auto",
+  "cpu_compute_type": "int8",
+  "cuda_compute_type": "float16",
+  "cpu_threads": 0,
+
+  "sample_rate": 16000,
+  "channels": 1,
+  "blocksize": 1024,
+
+  "silence_seconds": 0.5,
+  "silence_rms": 0.012,
+  "no_speech_timeout": 7.0,
+  "max_record_seconds": 30.0,
+  "pre_roll_seconds": 0.18,
+  "post_roll_seconds": 0.18,
+
+  "beam_size": 1,
+  "best_of": 1,
+  "temperature": 0.0,
+  "vad_filter": false,
+  "vad_min_silence_ms": 250,
+  "condition_on_previous_text": false,
+  "word_timestamps": false,
+  "without_timestamps": true,
+
+  "hinglish_prompt": "Mai Hindi aur English naturally mix karke Roman letters mein bolta hu. Aur kaise ho tum? Doctor Nivedita Sai Chandra hai. Consult date 13 08 2026. Bengaluru, Mahadevapura, Haryana, Jammu Kashmir, Chandigarh, Ludhiana, Jalandhar.",
+  "english_prompt": "Indian English dictation. Doctor, consult date, Bengaluru, Mahadevapura, Haryana, Jammu Kashmir, Chandigarh, Ludhiana, Jalandhar.",
+  "hindi_prompt": "मैं हिंदी में साफ़ तरीके से बोल रहा हूँ। डॉक्टर, तारीख, दिल्ली, चंडीगढ़, हरियाणा।"
+}
