@@ -7,6 +7,10 @@ echo ========================================
 echo VoxHing - Local Whisper Voice Server
 echo ========================================
 echo.
+echo Settings file: voxhing_config.json
+echo You can change the Whisper model, speed/accuracy, silence timing,
+echo CPU/GPU settings, and prompts in that file.
+echo.
 
 python --version >nul 2>&1
 if errorlevel 1 (
@@ -32,7 +36,7 @@ if errorlevel 1 (
 
 echo.
 echo Starting VoxHing...
-echo First launch can take a while because the Whisper model may be downloaded.
+echo The first launch of a new model can take a while because it must be downloaded.
 echo.
 python local_whisper_server.py
 
